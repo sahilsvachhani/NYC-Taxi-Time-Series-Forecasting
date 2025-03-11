@@ -1,9 +1,9 @@
 name: model_training_pipeline
 
 on:
-  schedule:
-    - cron: '0 0 * * 1' # Runs every monday
-  workflow_dispatch: # Allows manual triggering of the workflow
+  #schedule:
+   # - cron: '0 0 * * 1' # Runs every monday
+  #workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   run-python-script:
